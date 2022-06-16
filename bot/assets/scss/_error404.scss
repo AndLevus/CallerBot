@@ -1,0 +1,63 @@
+.error404 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 70px;
+	&.decorate-gears {
+		position: relative;
+		&::after {
+			content: '';
+			background-size: 160px;
+			top: -130px;
+			left: -85px;
+		}
+	}
+	.error404-image {
+		flex: 0 0 484px;
+		margin-right: 90px;
+	}
+	.error404-title {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		flex: 1;
+		&.decorate-gears {
+			position: relative;
+			&::after {
+				content: '';
+				background-size: 220px;
+				bottom: -170px;
+				left: 300px;
+			}
+		}
+		.error404-head {
+			color: $dgreen;
+			font-size: 34px;
+			margin-bottom: 40px;
+			width: 304px;
+			line-height: 40px;
+		}
+		.error404-text {
+			font-size: 22px;
+			line-height: 25px;
+			width: 443px;
+			a {
+				color: #1797B0;;
+				text-decoration: underline;
+			}
+			&:last-child {
+				width: 392px;
+			}
+		}
+	}
+}
+.decorate-gears {
+	&::after {
+		content: '';
+		background: url('../img/decorate-gears.svg') no-repeat 50%/216px;
+		position: absolute;
+		z-index: -1;
+		width: 216px;
+		height: 217px;
+	}
+}

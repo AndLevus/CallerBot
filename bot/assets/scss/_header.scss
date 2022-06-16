@@ -1,0 +1,167 @@
+#header {
+	.head-body {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 25px;
+		.head-logo{
+		}
+		.head-button {
+			.btn {
+				color: white;
+				font-size: 16px;
+				font-weight: 600;
+				padding: 15px 30px;
+				background: $orange;
+				border-radius: 8px;
+				border: 2px solid $orange;
+				text-transform: uppercase;
+				cursor: pointer;
+				&:hover {
+					background: inherit;
+					color: $orange;
+					transition: .4s ease-in-out;
+				}
+				&:first-child {
+					margin-right: 30px;
+				}
+			}
+		}
+	}
+	.head-item {
+		margin-top: 30px;
+		border-bottom: 1px solid #BDBDBD;
+		nav {
+			padding-bottom: 30px;
+			ul {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin: 0;
+				padding: 0;
+				li {
+					color: $dgreen;
+					text-transform: uppercase;
+					font-weight: 600;
+					line-height: 23px;
+				}
+			}
+		}
+	}
+}
+
+.jubotron {
+	margin-top: 80px;
+	.jubotron-block {
+		.jubotron-content{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.jubotron-info{
+				flex: 0 0 543px;
+				.jubotron-title {
+					margin-bottom: 30px;
+			h1 {
+				font-size: 38px;
+				color: $dgreen;
+				font-weight: 700;
+				line-height: 45px;
+				letter-spacing: 0.01em;
+			}
+		}
+		.jubotron-text {
+			margin-bottom: 35px;
+			line-height: 23px;
+			letter-spacing: 0.01em;
+			color: $dgreen;
+			font-weight: 400;
+		}
+		.btn {
+			color: white;
+			font-size: 16px;
+			font-weight: 600;
+			padding: 15px 30px;
+			background: $orange;
+			border-radius: 8px;
+			border: 2px solid $orange;
+			text-transform: uppercase;
+			cursor: pointer;
+			&:hover {
+				background: inherit;
+				color: $orange;
+				transition: .4s ease-in-out;
+			}
+		}
+	}
+		.jubotron-img {
+			background-image: url('../img/robot.png');
+			background-repeat: no-repeat;
+			width: 437px;
+			height: 463px;
+		}
+	}
+}
+
+	.jubotron-blocks {
+		margin-top: 90px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		.info-title1, .info-title2, .info-title3, .info-title4 {
+			color: $dgreen;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0px 0px 10px rgba(19, 53, 63, 0.1);
+			border-radius: 8px;
+			height: 140px;
+			flex: 0 0 220px;
+			text-align: center;
+			padding: 45px 35px;
+		}
+		.info-title1{
+			position: relative;
+			&::before {
+				content: '';
+				background: url('../img/cloud.svg') no-repeat;
+				top: -25px;
+				width: 63px;
+				height: 43px;
+				position: absolute;
+			}
+		}
+		.info-title2{
+			position: relative;
+			&::before {
+				content: '';
+				background: url('../img/diagram.svg') no-repeat;
+				top: -25px;
+				width: 47px;
+				height: 45px;
+				position: absolute;
+			}
+		}
+		.info-title3{
+			position: relative;
+			&::before {
+				content: '';
+				background: url('../img/call.svg') no-repeat;
+				top: -25px;
+				width: 46px;
+				height: 46px;
+				position: absolute;
+			}
+		}
+		.info-title4{
+			position: relative;
+			&::before {
+				content: '';
+				background: url('../img/sound.svg') no-repeat;
+				top: -25px;
+				width: 70px;
+				height: 52px;
+				position: absolute;
+			}
+		}
+	}
+}

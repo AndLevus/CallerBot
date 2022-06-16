@@ -1,0 +1,173 @@
+.information {
+	margin-top: 145px;
+	.title-block {
+		color: $dgreen;
+		text-align: center;
+		font-weight: 700;
+		font-size: 34px;
+		line-height: 40px;
+		margin-bottom: 70px;
+	}
+	.card-info {
+		.card-content {
+			.card-block {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				margin-bottom: 40px;
+				.card {
+					color: $dgreen;
+					font-size: 16px;
+					line-height: 20px;
+					flex: 0 0 443px;
+					background: #F7F7F7;
+					box-shadow: 0px 0px 10px rgba(19, 53, 63, 0.1);
+					border-radius: 8px;
+					padding: 40px 20px;
+					display: flex;
+					align-items: center;
+					margin: 0 40px 20px 0;
+					&.block {
+						flex: 0 0 443px;
+					}
+					img {
+						margin-right: 20px;
+					}
+				}
+				}
+			}
+	}
+	.quiz {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 55px;
+		.quiz-block {
+			flex: 0 0 478px;
+		h3 {
+			color: $lgreen;
+			font-size: 28px;
+			line-height: 33px;
+			font-weight: 700;
+		}
+		.text-top {
+			color: #4D4D4D;
+			line-height: 23px;
+			margin-top: 15px;
+		}
+		ul {
+			color: #4D4D4D;
+			margin-bottom: 20px;
+			li {
+				line-height: 25px;
+				color: $dgreen;
+				display: flex;
+				margin-bottom: 10px;
+				&::before {
+					content: '';
+					background: url('../img/chek.svg') no-repeat;
+					margin-right: 25px;
+					flex: 0 0 24px;
+				}
+				&:first-child {
+					margin-top: 25px;
+				}
+			}
+		}
+		.audio {
+			margin-top: 40px;
+			color: #828282;
+			font-size: 16px;
+			line-height: 20px;
+			audio {
+				margin-top: 10px;
+				width: 100%;
+			}
+		}
+	}
+		.img1 {
+			background: url('../img/quiz.png') no-repeat;
+			width: 437px;
+			height: 478px;
+		}
+		.img2 {
+			background: url('../img/calendar.png') no-repeat;
+			width: 471px;
+			height: 449px;
+		}
+		.img3 {
+			background: url('../img/purse.png') no-repeat;
+			width: 478px;
+			height: 376px;
+		}
+}
+	.btn {
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 30px;
+	background: $orange;
+	border-radius: 8px;
+	border: 2px solid $orange;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	margin-top: 80px;
+	&:hover {
+		background: inherit;
+		color: $orange;
+		transition: .4s ease-in-out;
+	}
+}
+}
+
+.construction {
+	margin-top: 145px;
+	.title-block {
+		color: $dgreen;
+		text-align: center;
+		font-weight: 700;
+		font-size: 34px;
+		line-height: 40px;
+		margin-bottom: 70px;
+	}
+	.constructor-block {
+		.left-block {
+			.block-info {
+				padding: 20px;
+				background: #F7F7F7;
+				box-shadow: 0px 0px 10px rgba(19, 53, 63, 0.1);
+				border-radius: 8px;
+				max-width: 224px;
+				margin-bottom: 60px;
+				position: relative;
+				&::before {
+					content: '';
+					background: url('../img/chek.svg') no-repeat;
+					position: absolute;
+					width: 24px;
+					height: 24px;
+					top: 40%;
+					left: -15px;
+				}
+				&.line {
+					position: relative;
+					&::after {
+						content: '';
+						background: url('../img/line.svg') no-repeat;
+						height: 315px;
+						width: 189px;
+						position: absolute;
+						top: -105px;
+						left: -200px;
+					}
+				}
+				&:nth-child(2) {
+					background: #1797B0;
+					margin-left: 180px;
+				}
+				}
+			}
+		}
+	}

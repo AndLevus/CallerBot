@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "SourceSansPro";
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+$dgreen: #13353F;
+$orange: #FF6A1C;
+$lgreen: #1797B0;
+$gray: #4D4D4D;
+
+$orange : #FF6A1C; // Оранжевый акцентный
+$l-orange : #FFFBF8; // Светло-оранжевый
+
+$white : #FFFFFF; // Белый
+
+$d-green : #13353F; // Темно-зеленый основной
+$green : #1797B0; // Зеленый второстепенный
+$l-green : #4D4D4D; // Бирюзовый фотоновый
+
+$d-gray : #4D4D4D; // Серый для описания
+$gray : #F7F7F7; // Серый фоновый
+
+$b-radius : 8px;
+$t-duration : .2s;
+$b-shadow : 0 0 10px rgba(19, 53, 63, 0.1);
+
+.wrapper {
+	width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+}
+.centered-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	height: 46px;
+	padding: 10px 30px;
+	border: 0;
+	color: #FF6A1C;
+	transition: 0.2s background-color ease-in-out, 0.2s color ease-in-out, 0.1s box-shadow ease-in-out, 0.2s border-color ease-in-out;
+	&.orange {
+		background-color: #FF6A1C;
+		color: white;
+	}
+	&.big {
+		height: 60px;
+		font-size: 18px;
+		padding: 20px 30px;
+	}
+	&.get-free {
+		margin-top: 80px;
+	}
+}

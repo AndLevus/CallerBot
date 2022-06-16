@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/scss/style.css">
+	<link rel="stylesheet" href="assets/scss/normalize.css">
+	<title>Цены</title>
+</head>
+
+<body>
+	<main>
+		<div class="wrapper">
+			<section class="prices decorate-gears">
+				<h1 class="center">Калькулятор цен</h1>
+				<div class="prices-text">Рассчитайте стоимость массового обзвона индивидуально для Вашей рассылки</div>
+				<div class="prices-tumbler">
+					<div>Рассчет по числу звонков</div>
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider"></span>
+					</label>
+					<div>Рассчет по сумме пополнения баланса</div>
+				</div>
+				<div class="calc-block">
+					<input type="range" id="square-range" class="range-input" min="0" max="166" step="1" value="50">
+					<label class="checkbox-wrapper title-bold section-title section-title--vertical-center">
+						<span class="title-up">Количество звонков, шт.</span>
+						<input type="number" min="0" max="166" value="50" id="square-input" class="title-inline input-short">
+					</label>
+				</div>
+			</section>
+		</div>
+	</main>
+
+
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>

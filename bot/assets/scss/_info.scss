@@ -1,0 +1,192 @@
+.technology {
+	margin-top: 70px;
+	&::after {
+		top: 0;
+		left: -5px;
+	}
+	.technology-title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.technology-info {
+			text-align: center;
+			position: relative;
+			background: $gray;
+			box-shadow: 0px 0px 10px rgba(19, 53, 63, 0.1);
+			border-radius: 8px;
+			max-width: 700px;
+			padding: 60px 55px 45px 60px;
+			font-size: 22px;
+			line-height: 26px;
+			margin-top: 100px;
+			&::before {
+				content: 'Наша цель:';
+				position: absolute;
+				top: 0;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				padding: 20px 35px;
+				background-color: $green;
+				border-radius: $b-radius;
+				color: white;
+			}
+		}
+	}
+	.technology-list {
+		margin-top: 180px;
+		display: flex;
+		justify-content: center;
+		.technology-item {
+			background: $gray;
+			border-radius: $b-radius;
+			position: relative;
+			flex: 0 0 315px;
+			padding: 50px;
+			margin: 0 40px;
+			&::before {
+				position: absolute;
+				top: 0;
+				left: 50%;
+				transform: translate(-50%, -70%);
+			}
+			&.laptop {
+				&::before {
+					content: url('../img/laptop.svg');
+					height: 154px;
+				}
+			}
+			&.money {
+				&::before {
+					content: url('../img/money.svg');
+					height: 154px;
+				}
+			}
+			&.pad {
+				&::before {
+					content: url('../img/pad.svg');
+					height: 154px;
+				}
+			}
+			.list-title {
+				color: $orange;
+				font-size: 22px;
+				font-weight: 700;
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+.block-team {
+	margin-top: 145px;
+	.block-team-content {
+		.team-img {
+			text-align: center;
+		}
+		.line {
+			width: 298px;
+			position: relative;
+			&.info1 {
+				transform: translate(60%, 165%);
+				&::before {
+					content: 'Маркетологи и дизайнеры';
+					font-weight: 700;
+				}
+				&::after {
+					content: 'развивают внешнюю часть нашего сервиса и продумывают его удобство для Вас.';
+					font-size: 16px;
+					position: absolute;
+					top: 30px;
+					width: 237px;
+				}
+				}
+				&.info2 {
+					transform: translate(30%, 180%);
+					&::before {
+						content: 'Менеджер';
+						font-weight: 700;
+					}
+					&::after {
+						content: 'курирует все наши отделы и проекты.';
+						font-size: 16px;
+						position: absolute;
+						top: 30px;
+						width: 237px;
+					}
+				}
+				&.info3 {
+					transform: translate(250%, -650%);
+					&::before {
+						content: 'Программисты во главе с руководителем';
+						font-weight: 700;
+						position: absolute;
+						top: -45px;
+						left: 65px;
+						width: 195px;
+					}
+					&::after {
+						content: 'являются основой сервиса, разрабатывая всю техническую составляющую.';
+						font-size: 16px;
+						position: absolute;
+						top: 20px;
+						left: 70px;
+						width: 237px;
+					}
+				}
+				&.info4 {
+					transform: translate(265%, -560%);
+					&::before {
+						content: 'Сотрудники техподдержки';
+						font-weight: 700;
+						position: absolute;
+						top: -25px;
+						left: 65px;
+					}
+					&::after {
+						content: 'всегда помогут Вам с ответами на любые вопросы.';
+						font-size: 16px;
+						position: absolute;
+						top: 20px;
+						left: 70px;
+						width: 237px;
+					}
+				}
+			}
+			.element1 {
+				position: relative;
+				&::after {
+					content: '';
+					width: 230px;
+					height: 231px;
+					top: 0;
+				}
+			}
+			.element2 {
+				position: relative;
+				&::after {
+					content: '';
+					background-size: 150px;
+					top: 0;
+					right: 0;
+				}
+			}
+			.element3 {
+				position: relative;
+				&::after {
+					content: '';
+					background-size: 130px;
+					left: 100px;
+				}
+			}
+			.element4 {
+				position: relative;
+				&::after {
+					content: '';
+					height: 250px;
+					width: 249px;
+					top: -30px;
+					right: 0;
+				}
+			}
+		}
+	}

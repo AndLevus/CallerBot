@@ -1,0 +1,42 @@
+.error500 {
+	margin-top: 50px;
+	.element1 {
+		position: relative;
+		&::after {
+			content: '';
+			width: 230px;
+			height: 231px;
+			top: 0;
+		}
+	}
+	.element2 {
+		position: relative;
+		&::after {
+			content: '';
+			background-size: 150px;
+			top: 0;
+			right: 0;
+		}
+	}
+	.error500-image {
+		text-align: center;
+	}
+	.element3 {
+		position: relative;
+		&::after {
+			content: '';
+			background-size: 130px;
+			left: 100px;
+		}
+	}
+	.element4 {
+		position: relative;
+		&::after {
+			content: '';
+			height: 250px;
+			width: 249px;
+			top: -30px;
+			right: 0;
+		}
+	}
+}

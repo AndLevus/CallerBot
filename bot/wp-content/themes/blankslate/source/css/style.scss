@@ -1,0 +1,36 @@
+$orange : #FF6A1C; // Оранжевый акцентный
+$l-orange : #FFFBF8; // Светло-оранжевый
+
+$white : #FFFFFF; // Белый
+
+$d-green : #13353F; // Темно-зеленый основной
+$green : #1797B0; // Зеленый второстепенный
+$l-green : #4D4D4D; // Бирюзовый фотоновый
+
+$d-gray : #4D4D4D; // Серый для описания
+$gray : #F7F7F7; // Серый фоновый
+
+$b-radius : 8px;
+$t-duration : .2s;
+$f-t-duration : 150ms;
+$b-shadow : 0 0 10px rgba(19, 53, 63, 0.1);
+
+$md-max: 1200px;
+$sm-max: 767px;
+
+@import "../libs/normalize.css";
+
+@import "_fonts";
+@import "_mixins";
+@import "_global";
+@import "_modals";
+
+@import "ui";
+@import "pages/errors";
+
+@import "pages/front-page";
+@import "pages/services-page";
+@import "pages/support-page";
+@import "pages/about-page";
+@import "pages/api-page";
+@import "pages/calculator-page";
